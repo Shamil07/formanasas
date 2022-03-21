@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("https://img.freepik.com/free-photo/idyllic-shot-of-a-huge-mountain-covered-in-vegetation-with-a-body-of-water-at-its-base_181624-21444.jpg?size=626&ext=jpg&ga=GA1.2.1479421696.1641168000") center no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  width: 25% !important;
+  height: 550px;
+  padding: 0 !important;
+  border-radius: 5px;
+  background-color: white !important;
+}
+
+.container .r1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  margin: 0 !important;
+}
+
+.container .r1 .header {
+  position: relative;
+}
+
+.container .r1 .header h3,
+.container .r1 .header p {
+  position: relative;
+  text-align: center;
+  top: 15%;
+}
+
+.container .r2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.container .r2 .btn {
+  position: relative;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.container .r2 .btn svg {
+  width: 15px;
+  height: 15px;
+  fill: white;
+}
+
+.container .r2 .btn button {
+  position: relative;
+  border: none;
+  top: 4%;
+  padding: 7px;
+  font-size: 15px;
+  width: 100%;
+  color: white;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.container .r2 .btn .btn1 {
+  position: relative;
+  top: 10px;
+  background-color: #06d1b6;
+}
+
+.container .r2 .btn .btn2 {
+  position: relative;
+  top: 15px;
+  background-color: #007ee6;
+}
+
+.container .r3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 0 !important;
+  padding-top: 8px;
+}
+
+.container .r3 p {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container .r4 {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.container .r4 .svgdiv {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: grey;
+}
+
+.container .r4 .svgdiv svg {
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+}
+
+.container .r4 input {
+  position: relative;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+  width: 280px;
+}
+
+.container .r4 .d1,
+.container .r4 .d2,
+.container .r4 .d3,
+.container .r4 .d4 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.container .r5 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 !important;
+}
+
+.container .r5 .btnOne {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 !important;
+}
+
+.container .r5 .btnOne button {
+  position: relative;
+  padding: 5px;
+  border: 0px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  width: 300px;
+  background-color: #007ee6;
+}
+
+.container .r6 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 50px;
+  margin: 0 !important;
+  padding-top: 8px;
+}
+
+.container .r6 p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.container .r6 b {
+  color: blue;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
